@@ -1,1 +1,70 @@
+body {
+    font-family: sans-serif;
+    background-image: url(https://img0.baidu.com/it/u=1253999515,570571512&fm=253&fmt=auto&app=138&f=JPEG?w=889&h=500);
+    background-repeat: no-repeat;
+    /* 溢出隐藏 */
+    overflow: hidden;
+    background-size: cover;
+}
+
+
+.container {
+    width: 300px;
+    margin: 7% auto;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.1);
+    /* 阴影部分 */
+    box-shadow: 0 0 17px #000000;
+}
+
+.header {
+    text-align: center;
+    padding-top: 75px;
+
+}
+
+
+.header h1 {
+    color: #ffffff;
+    font-size: 40px;
+    margin-bottom: 80px;
+}
+
+.main {
+    text-align: center;
+}
+
+.main input,
+button {
+    width: 250px;
+    height: 40px;
+    /* 边框消失 */
+    border: none;
+    /* 选中取消黑框 */
+    outline: none;
+    padding-left: 15px;
+    box-sizing: border-box;
+    font-size: 13px;
+    color: #3b3ef3;
+    margin-bottom: 10px;
+}
+
+.main button {
+    padding-left: 0;
+    background-color: rgb(160, 198, 255);
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin-bottom: 70px;
+}
+
+.main button:hover{
+    box-shadow:2px 2px 5px #000;
+    background-color: #5e6dfa;
+}
+
+
+.main input:hover{
+    box-shadow:2px 2px 5px #000;
+    background-color: #ffbaba;
+}
 
